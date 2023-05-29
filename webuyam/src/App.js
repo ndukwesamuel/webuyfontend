@@ -1,15 +1,14 @@
 import './App.css';
 
-import Left from '../src/Left';
-import RightSide from '../src/RightSide';
+import Main from '../src/Main';
 
 function App() {
   return (
     <div
-      className="flex flex-row justify-between bg-[#34434b] w-full h-screen"
+      className="flex content-center justify-center relative w-full h-screen"
     >
-      <Left />
-      <RightSide/>
+      <Main/>
+      
     </div>
   );
 }
