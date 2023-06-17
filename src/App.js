@@ -1,14 +1,12 @@
-import './App.css';
+import React from "react";
 
-import Main from '../src/Main';
+import "./App.css";
+import Login from "./Page/Login";
 
 function App() {
   return (
-    <div
-      className="flex content-center justify-center relative w-full h-screen"
-    >
-      <Main/>
-      
+    <div className="mt-5">
+      <Login />
     </div>
   );
 }
