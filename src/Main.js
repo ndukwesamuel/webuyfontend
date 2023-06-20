@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import image from "../src/img/istockphoto-1320029684-612x612__1_-removebg.png";
+import image from '../src/img/istockphoto-1320029684-612x612__1_-removebg.png';
 
 const Main = () => {
   return (
